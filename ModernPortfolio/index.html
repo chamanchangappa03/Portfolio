@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="My personal portfolio." content="Full-Stack developer portfolio">
+    <meta name="description"
+
+        content="Welcome to my developer portfolio! Explore a collection of my projects and web applications showcasing my expertise in building dynamic and interactive user interfaces. With a passion for clean code and innovative solutions, I strive to create seamless user experiences that blend functionality with stunning designs.">
+    <title>Krunal W | Full-Stack Developer</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/Images/HiFi.png" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="assets/favicon_ii/favicon-32x32.png" type="image/x-icon"> -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div id="main">
+
+        <div id="back">
+            <div class="blob-cont">
+                <div class="yellow blob"></div>
+                <div class="red blob"></div>
+                <div class="green blob"></div>
+            </div>
+
+            <svg>
+                <filter id='noiseFilter'>
+                    <feTurbulence type='fractalNoise' baseFrequency='0.6' stitchTiles='stitch' />
+                    <feColorMatrix in="colorNoise" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
+                    <feComposite operator="in" in2="SourceGraphic" result="monoNoise" />
+                    <feBlend in="SourceGraphic" in2="monoNoise" mode="screen" />
+                </filter>
+            </svg>
+        </div>
+
+        <div id="top">
+
+            <div id="workingarea">
+
+                <div id="nav">
+                    <div id="logo">
+                        <h3>Chaman.dev</h3>
+                    </div>
+                    <div id="links">
+                        <a class="nlink" href="/assets/chamanintern212 corrected.pdf" download=""
+                            target="_blank">Get'resume</a>
+                        <a class="nlink" href="#AboutSec">About</a>
+                        <a class="nlink" href="#ProjectSec">Projects</a>
+                        <a class="nlink" href="#ContactSec">Contact</a>
+                    </div>
+
+                </div>
+
+                <div id="hero">
+                    <div id="heroleft">
+                        <h1>Full-Stack Developer </h1>
+                        <h1>Developer<span id="hand"></span></h1>
+                        <p>Hi, I'm Chaman Changappa HA.
+                            A passionate Full-Stack Developer, India. 📍</p>
+                        <div id="icon">
+                            <a href="https://www.linkedin.com/in/chaman-changappa-ha-451365263/" target="_blank"> <i
+                                    class="ri-linkedin-box-line"></i></a>
+                            <a href="https://github.com/chamanchangappa03" target="_blank"> <i class="ri-github-line"></i></a>
+                        </div>
+                    </div>
+
+                    <div id="heroright">
+                        <!-- <div id="imgdiv">
+                            <img src="P.JPG" alt="Krunal's photo">
+                        </div> -->
+
+                    </div>
+
+                </div>
+
+                <div id="bottompart">
+                    <h4>Tech Stack </h4>
+                    <img id="icn" src="https://skillicons.dev/icons?i=html,css" alt="">
+                    <img id="icn" src="https://skillicons.dev/icons?i=js,mysql" alt="">
+                    <img id="icn" src="https://skillicons.dev/icons?i=java,python" alt="">
+                    <img id="icn" src="https://skillicons.dev/icons?i=tailwindcss,react" alt="">
+                    <!-- <img src="image.png" alt=""> -->
+                </div>
+
+                <div id="AboutSec">
+                    <div id="About-img">
+                        <img src="/assets/_L6A6852.jpg" alt="">
+                        <!-- <h1>About Section Loading...</h1> -->
+                    </div>
+
+                    <div id="About-content">
+                        <h2>About Me</h2>
+                        <h1>Full-Stack Developer</h1>
+                        <h1>based in Coorg, India 📍</h1>
+                        <p class="pOne">~ Hey,my name is Chaman, and I'm a Full-Stack Developer.My Build Websites
+                            which is easy to  scale and easy to maintain .</p>
+                        <p class="pTwo">I am currently pursuing my bachelor's degree at NITK and immersing myself in various
+                            technologies. With this foundation, I am on a fast track to becoming a proficient software
+                            engineer.</p>
+                    </div>
+                </div>
+                <div id="ProjectSec" class="projects">
+                    <h1 class="section-title">My Projects 🚀</h1>
+                  
+                    <div class="project-grid">
+                  
+                      <!-- Project 1 -->
+                      <div class="project-card">
+                        <img src="assets/Images/mockai.png" alt="MockAI project preview" class="project-img" loading="lazy">
+                        <div class="project-content">
+                          <h2>MockAI</h2>
+                          <p>AI-powered mock interview platform that helps students practice coding, system design, and HR interviews. 
+                             Features live feedback and detailed analysis.</p>
+                          <a href="https://github.com/chamanchangappa03/mockai" target="_blank" class="project-link">
+                            View on GitHub <i class="ri-github-line"></i>
+                          </a>
+                        </div>
+                      </div>
+                  
+                      <!-- Project 2 -->
+                      <div class="project-card">
+                        <img src="assets/Images/WhatsApp Image 2025-05-26 at 14.25.19.jpeg" alt="Carbonal project preview" class="project-img" loading="lazy">
+                        <div class="project-content">
+                          <h2>Carbonal</h2>
+                          <p>Track your carbon footprint based on your daily activities. Offers tips to reduce emissions and visualize 
+                             impact with charts.</p>
+                          <a href="https://github.com/chamanchangappa03/Carbonal" target="_blank" class="project-link">
+                            View on GitHub <i class="ri-github-line"></i>
+                          </a>
+                        </div>
+                      </div>
+                  
+                      <!-- Project 3 -->
+                      <div class="project-card">
+                        <img src="assets/Images/meme.png" alt="Meme project preview" class="project-img" loading="lazy">
+                        <div class="project-content">
+                          <h2>Meme</h2>
+                          <p>Fun meme generator app that allows you to create and share memes instantly. Add text, stickers, and export 
+                             your creation with one click.</p>
+                          <a href="https://github.com/chamanchangappa03/Meme" target="_blank" class="project-link">
+                            View on GitHub <i class="ri-github-line"></i>
+                          </a>
+                        </div>
+                      </div>
+                  
+                    </div>
+                  </div>
+                  
+
+
+                <div id="ContactSec">
+                    <h3>CONTACT</h3>
+                    <h1>Don't be shy! Hit me up! 👇🏻</h1>
+
+                    <div id="Cs">
+                        <!-- <div id="location">
+                            <h2>Location </h2>
+                            <h3>Vadodara, India</h3>
+                        </div> -->
+                        <div id="mail">
+                            <h2>Mail</h2>
+                            <h3>chamanchangappa@gmail.com</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <footer>
+                    <h3>crafted this Portfolio with a lot of 💗 and care.</h3>
+                    <div id="ficon">
+                        <a class="flink" href="linkedin.com/in/chaman-changappa-ha-451365263/" target="_blank"><i class="ri-linkedin-box-line"></i></a>
+                        <a class="flink" href="github.com/chamanchangappa03" target="_blank"> <i class="ri-github-line"></i></a>
+                    </div>
+                </footer>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
